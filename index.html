@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoltán Javos — Önéletrajz · 2026</title>
+<style>
+  :root { --ink: #111; --muted: #555; --rule: #ccc; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: #fff;
+    max-width: 780px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+    line-height: 1.5;
+    font-size: 14.5px;
+  }
+  .toolbar {
+    text-align: right;
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .toolbar a { color: var(--muted); text-decoration: none; margin-left: 0.8rem; }
+  .toolbar a:hover { color: var(--ink); }
+  .toolbar a.active { color: var(--ink); font-weight: 600; }
+  header { text-align: center; margin-bottom: 1rem; }
+  h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+  }
+  .role-line {
+    color: var(--ink);
+    font-weight: 600;
+    margin-top: 0.3rem;
+    font-size: 0.95rem;
+  }
+  .tagline {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.15rem;
+  }
+  .contact {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0.6rem 0 1.2rem;
+  }
+  .contact a { color: var(--muted); text-decoration: none; }
+  h2 {
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: var(--ink);
+    margin: 1.4rem 0 0.5rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 0.2rem;
+  }
+  h3 {
+    font-size: 0.98rem;
+    font-weight: 700;
+    margin: 0.9rem 0 0;
+  }
+  .role {
+    color: var(--muted);
+    margin: 0 0 0.3rem;
+    font-size: 0.9rem;
+  }
+  .meta {
+    float: right;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  ul { padding-left: 1.3rem; margin: 0.25rem 0 0.5rem; }
+  li { margin: 0.15rem 0; }
+  p { margin: 0.35rem 0; }
+  .twocol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem 1.5rem;
+  }
+  .twocol ul { padding-left: 1.1rem; }
+  footer {
+    margin-top: 1.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--rule);
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-style: italic;
+  }
+  @media print {
+    .toolbar { display: none; }
+    body { font-size: 10px; max-width: 100%; margin: 0; padding: 0; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 0.78rem; margin-top: 0.7rem; }
+    h3 { font-size: 0.85rem; }
+    @page { size: A4; margin: 1cm; }
+  }
+  @media (max-width: 640px) {
+    .twocol { grid-template-columns: 1fr; }
+    .meta { float: none; display: block; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a href="index.html" class="active">HU</a>
+  <a href="en.html">EN</a>
+  <a href="cv-hu.pdf">PDF letöltés</a>
+</div>
+
+<header>
+  <h1>ZOLTÁN JAVOS</h1>
+  <div class="role-line">Senior IT Solution Engineer · Társtulajdonos — MyForge Labs Kft.</div>
+  <div class="tagline">26 év Enterprise IT · Multi-Tenant SaaS · AI-asszisztált fejlesztés</div>
+</header>
+
+<div class="contact">
+  Budapest, Magyarország · +36 30 848 4733 · zoltan.javos@myforgelabs.com<br>
+  linkedin.com/in/zolijavos
+</div>
+
+<h2>Szakmai profil</h2>
+<p>
+26 év enterprise IT és Service Delivery Management tapasztalattal rendelkező senior technical vezető. Pályafutásom korábbi szakaszában (PeopleSoft – Oracle Toronto, British Telecom London, UNHCR Budapest) globális PeopleSoft HCM/CRM rendszerek tervezését, fejlesztését, integrálását és upgrade-jét vezettem — beleértve egy stratégiai PeopleSoft → Workday migrációs projektet. 2025-től a MyForge Labs Kft. társtulajdonosa, ahol AI-asszisztált multi-tenant SaaS termékek fejlesztését irányítom. Erősségem: <strong>enterprise-szintű delivery-tapasztalat és modern technológiai execution egy operátorban</strong>.
+</p>
+
+<h2>Kiemelt eredmények</h2>
+<ul>
+  <li>26+ év PeopleSoft technical consulting + Service Delivery Management — UNHCR (10 év), British Telecom (7 év), PeopleSoft – Oracle (6 év).</li>
+  <li>UNHCR PeopleSoft → Workday adatmigráció vezetése (2022–2024) — adatintegritás, biztonság, üzleti folytonosság.</li>
+  <li>Multi-tenant SaaS architektúra tervezése és bevezetése — PostgreSQL Row Level Security, audit-trail, immutable state-machine pattern.</li>
+  <li>AI-asszisztált fejlesztési pipeline bevezetése — LLM tooling, prompt engineering, MCP-alapú tool-integráció kliens-projektekben.</li>
+</ul>
+
+<h2>Technológia</h2>
+<div class="twocol">
+  <div>
+    <h3 style="font-size:0.85rem;letter-spacing:0.06em;text-transform:uppercase;">AI &amp; Workflow</h3>
+    <ul>
+      <li>LLM (Claude, GPT, Gemini) — prompt engineering, agent orchestration</li>
+      <li>Claude Code (CLI + IDE), MCP — custom tool-integráció</li>
+      <li>Process automation: agentic stacks, n8n</li>
+    </ul>
+    <h3 style="font-size:0.85rem;letter-spacing:0.06em;text-transform:uppercase;">Backend &amp; Architektúra</h3>
+    <ul>
+      <li>NestJS, TypeScript strict, Prisma, PostgreSQL (RLS)</li>
+      <li>Multi-tenant SaaS pattern, BullMQ, Redis, MinIO</li>
+      <li>PeopleTools, PeopleCode, Application Engine, Integration Broker</li>
+    </ul>
+  </div>
+  <div>
+    <h3 style="font-size:0.85rem;letter-spacing:0.06em;text-transform:uppercase;">Frontend &amp; PWA</h3>
+    <ul>
+      <li>React, Vite, shadcn/ui (Radix), Tailwind</li>
+      <li>PWA Service Worker, IndexedDB offline mode, többnyelvű i18n</li>
+      <li>Accessibility (WCAG a11y), mobile-first responsive</li>
+    </ul>
+    <h3 style="font-size:0.85rem;letter-spacing:0.06em;text-transform:uppercase;">DevOps &amp; Infra</h3>
+    <ul>
+      <li>Monorepo: pnpm + Turborepo, Docker, GitHub Actions</li>
+      <li>Hetzner / Hostinger VPS, Caddy, monitoring stack</li>
+      <li>Stryker mutation testing, fast-check property tests</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Vezetői kompetenciák</h2>
+<div class="twocol">
+  <ul>
+    <li>Service Delivery Management — cross-functional team leadership</li>
+    <li>Architecture decision-making, technical debt management</li>
+    <li>Stakeholder management — kliens-source-driven scope decisioning</li>
+  </ul>
+  <ul>
+    <li>Multi-tenant SaaS architektúra, audit trail design</li>
+    <li>Mentoring, technical writing, onboarding documentation</li>
+    <li>Vendor selection, IT audit, technology decision support</li>
+  </ul>
+</div>
+
+<h2>Tapasztalat</h2>
+
+<h3>MyForge Labs Kft. <span class="meta">2025 – jelen</span></h3>
+<p class="role">Senior IT Solution Engineer / Társtulajdonos · Budapest</p>
+<ul>
+  <li>Cégstratégia és üzleti modell — AI-asszisztált multi-tenant SaaS termékek pozícionálása, ügyfélakvizíció, portfólió-növelés.</li>
+  <li>AI-integráció vezetése — LLM-alapú asszisztensek és generatív AI eszközök beágyazása ügyfél-workflow-kba.</li>
+  <li>Multi-tenant SaaS architektúra — modern monorepo (pnpm + Turborepo), NestJS + Prisma + PostgreSQL RLS + React + Vite PWA.</li>
+  <li>Production-grade RLS és minőségbiztosítás — property-test cross-tenant invariants, mutation-testing gate.</li>
+  <li>Csapat- és subcontractor-vezetés, határidő- és költségkontroll, kliens-portfólió menedzselése.</li>
+</ul>
+
+<h3>UNHCR (United Nations High Commissioner for Refugees) <span class="meta">2014 – 2024</span></h3>
+<p class="role">Service Delivery Manager — PeopleSoft · Budapest, HU</p>
+<ul>
+  <li>PeopleSoft szolgáltatások delivery-felelőssége — rendszer-upgrade-ek, patch management, integráció enterprise rendszerekkel.</li>
+  <li>Technical consultant csapat vezetése, magas ügyfél-elégedettség biztosítása.</li>
+  <li>Stakeholder-koordináció (HR / IT / Finance) — üzleti igények actionable delivery-tervekké fordítása.</li>
+  <li>UNHCR PeopleSoft → Workday upgrade adatmigrációs vezetése (2022–2024).</li>
+  <li>Post-implementation review-k, rendszerteljesítmény-optimalizálás.</li>
+</ul>
+
+<h3>British Telecom <span class="meta">2006 – 2013</span></h3>
+<p class="role">HCM Systems Engineer és Service Delivery Manager · London, UK</p>
+<ul>
+  <li>PeopleSoft HCM környezet üzemeltetése — performance, stabilitás, biztonság.</li>
+  <li>Új PeopleSoft modulok és rendszer-upgrade-ek bevezetésének koordinálása, minimalizált business-disruption.</li>
+  <li>Integrációs megoldások fejlesztése PeopleSoft és más enterprise rendszerek között (seamless data flow, process automation).</li>
+  <li>Performance tuning, patch management, cross-functional team-koordináció.</li>
+</ul>
+
+<h3>PeopleSoft – Oracle <span class="meta">2000 – 2006</span></h3>
+<p class="role">Senior PeopleSoft Technical Consultant és Upgrade Specialist · Toronto, CAN</p>
+<ul>
+  <li>PeopleSoft applikációk technical leadership — design, fejlesztés, implementáció.</li>
+  <li>Modul-customizálás (PeopleTools, PeopleCode, Application Engine) — tailored ügyfélmegoldások.</li>
+  <li>Integráció Integration Broker és middleware technológiákkal.</li>
+  <li>Több sikeres PeopleSoft upgrade vezetése (verzióváltások, PUM updates).</li>
+</ul>
+
+<h2>Tanulmányok</h2>
+<h3>Ryerson University <span class="meta">1996 – 2000</span></h3>
+<p class="role">Information Technology Management, BA · Toronto, Canada</p>
+
+<h2>Tanúsítványok</h2>
+<ul>
+  <li>PeopleSoft Certified Technical Consultant</li>
+  <li>PeopleSoft Certified CRM Consultant</li>
+</ul>
+
+<h2>Nyelvek</h2>
+<ul>
+  <li>Magyar — anyanyelv</li>
+  <li>Angol — szakmai szint, folyékony (26 év Toronto / London / Budapest international környezet)</li>
+</ul>
+
+<h2>Referenciák</h2>
+<p>Korábbi munkáltatóktól és aktuális ügyfelektől kérésre rendelkezésre bocsátva.</p>
+
+<footer>Budapest, 2026. május · Zoltán Javos</footer>
+
+</body>
+</html>
